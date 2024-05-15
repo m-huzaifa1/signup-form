@@ -45,11 +45,20 @@ body {
 }
 
 .container .right form {
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+
+.container .right button {
+    padding: 0.5rem 6.8rem;
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+    background-color: #d268cc;
+    color: white;
 }
 
 .container .right form .input {
-    margin: 1rem 0;
+    margin: 0.7rem 0;
 }
 
 label {
@@ -59,5 +68,19 @@ label {
 
 input {
     padding: 0.5rem 3rem;
-    border-radius: 1rem;
+    border: 1px solid gray;
+    border-radius: 0.8rem;
+}
+
+.container .right p {
+    margin: 0.5rem 0;
+}
+
+.container .right a {
+    color: black;
+}
+
+.container .right .options a {
+    margin: 0 0.5rem;
+    font-size: 1rem;
 }
